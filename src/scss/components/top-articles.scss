@@ -1,0 +1,15 @@
+.top-articles {
+  grid-area: topArticle;
+  display: flex;
+  column-gap: 55px;
+  row-gap: 32px;
+  flex-wrap: wrap;
+
+  .item {
+    flex-grow: 1;
+    flex-basis: 330px;
+    background-color: lime;
+    display: flex;
+    column-gap: 20px;
+  }
+}

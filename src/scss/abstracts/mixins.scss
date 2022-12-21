@@ -1,0 +1,5 @@
+@mixin grid-container {
+  display: grid;
+  grid-template-columns: min(90vw, 1120px);
+  place-content: center;
+}

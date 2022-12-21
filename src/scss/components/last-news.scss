@@ -1,0 +1,17 @@
+.last-news {
+  grid-area: lastNews;
+  background-color: var(--clr_dark-blue);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+
+  .last-news__title {
+    margin-bottom: 6px;
+  }
+
+  .item {
+    padding-bottom: 34px;
+    border-bottom: 1px solid #fff;
+  }
+}

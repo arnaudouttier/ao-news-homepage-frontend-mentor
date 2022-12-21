@@ -1,0 +1,29 @@
+/* Buttons */
+button,
+.btn {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+}
+
+.btn-primary {
+  background-color: var(--clr_red);
+  padding-block: 14px;
+  padding-inline: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+  transition: background-color 0.5s ease;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--clr_dark-blue);
+    }
+  }
+}
