@@ -9,7 +9,7 @@
   padding-inline: 20px;
 
   .last-news__title {
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 700;
     color: var(--clr_orange);
     margin-bottom: 6px;
@@ -23,7 +23,13 @@
   }
 
   .item__title {
+    font-size: 19px;
     font-weight: 700;
     margin-bottom: 16px;
+    @include link-hover(var(--clr_orange));
+  }
+
+  .item__description {
+    color: var(--clr_grey_100);
   }
 }

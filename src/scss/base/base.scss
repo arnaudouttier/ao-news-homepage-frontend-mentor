@@ -31,3 +31,8 @@ p {
   color: var(--clr_grey_200);
   line-height: 1.6;
 }
+
+// Titles
+.item__title {
+  cursor: pointer;
+}

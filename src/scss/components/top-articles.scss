@@ -15,7 +15,7 @@
   .item__content {
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 15px;
   }
 
   .item__number {
@@ -26,6 +26,7 @@
   }
 
   .item__title {
-    font-weight: 700;
+    font-weight: 800;
+    @include link-hover(var(--clr_red));
   }
 }

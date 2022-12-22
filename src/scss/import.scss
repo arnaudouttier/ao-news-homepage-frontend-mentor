@@ -1,18 +1,18 @@
 // abstracts
-@use "abstracts/variables";
-@use "abstracts/mixins";
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
 // Base
-@use "base/reset";
-@use "base/base";
+@import "base/reset";
+@import "base/base";
 
 // Components
-@use "components/buttons";
-@use "components/site-navigation";
-@use "components/promote-article";
-@use "components/last-news";
-@use "components/top-articles";
+@import "components/buttons";
+@import "components/site-navigation";
+@import "components/promote-article";
+@import "components/last-news";
+@import "components/top-articles";
 
 // Layout
-@use "layout/l_header";
-@use "layout/l_main";
+@import "layout/l_header";
+@import "layout/l_main";

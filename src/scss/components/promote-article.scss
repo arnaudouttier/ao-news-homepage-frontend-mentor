@@ -11,7 +11,10 @@
   }
 
   h1.pormote-article__title {
-    font-size: 50px;
+    /* 50px @ 375px increasing to 63px @ 1200px */
+    font-size: clamp(50px, calc(3.125rem + ((1vw - 3.75px) * 1.5758)), 63px);
+    /* Safari resize fix */
+    min-height: 0vw;
     font-weight: 800;
   }
 }

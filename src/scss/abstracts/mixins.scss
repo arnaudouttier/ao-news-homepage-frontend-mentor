@@ -3,3 +3,13 @@
   grid-template-columns: min(90vw, 1120px);
   place-content: center;
 }
+
+@mixin link-hover($color) {
+  transition: color 0.3s ease;
+
+  @media (hover: hover) {
+    &:hover {
+      color: $color;
+    }
+  }
+}
