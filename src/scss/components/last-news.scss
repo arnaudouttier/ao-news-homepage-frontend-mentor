@@ -1,17 +1,29 @@
 .last-news {
   grid-area: lastNews;
-  background-color: var(--clr_dark-blue);
+  background-color: var(--clr_grey_300);
   color: #fff;
   display: flex;
   flex-direction: column;
   row-gap: 35px;
+  padding-block: 30px;
+  padding-inline: 20px;
 
   .last-news__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--clr_orange);
     margin-bottom: 6px;
   }
 
   .item {
-    padding-bottom: 34px;
-    border-bottom: 1px solid #fff;
+    &:not(:last-child) {
+      padding-bottom: 34px;
+      border-bottom: 1px solid var(--clr_grey_200);
+    }
+  }
+
+  .item__title {
+    font-weight: 700;
+    margin-bottom: 16px;
   }
 }

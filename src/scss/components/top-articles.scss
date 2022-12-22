@@ -8,8 +8,24 @@
   .item {
     flex-grow: 1;
     flex-basis: 330px;
-    background-color: lime;
     display: flex;
     column-gap: 20px;
+  }
+
+  .item__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .item__number {
+    color: var(--clr_grey_100);
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+
+  .item__title {
+    font-weight: 700;
   }
 }

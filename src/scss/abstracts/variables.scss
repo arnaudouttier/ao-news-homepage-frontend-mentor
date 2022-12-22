@@ -1,6 +1,13 @@
 :root {
   --font_primary: "Inter", sans-serif;
 
-  --clr_dark-blue: hsl(240, 100%, 5%);
   --clr_red: hsl(5, 85%, 63%);
+  --clr_orange: hsl(35, 77%, 62%);
+
+  --clr_white_100: #ffffff;
+  --clr_white_200: hsl(36, 100%, 99%);
+
+  --clr_grey_100: hsl(233, 8%, 79%);
+  --clr_grey_200: hsl(236, 13%, 42%);
+  --clr_grey_300: hsl(240, 100%, 5%);
 }
