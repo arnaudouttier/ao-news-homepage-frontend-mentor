@@ -1,4 +1,4 @@
-.top-articles {
+.topics {
   grid-area: topArticle;
   display: flex;
   column-gap: 55px;
@@ -21,7 +21,6 @@
   .item__number {
     color: var(--clr_grey_100);
     font-size: 30px;
-    letter-spacing: 1px;
     font-weight: 700;
   }
 

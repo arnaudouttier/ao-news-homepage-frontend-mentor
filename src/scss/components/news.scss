@@ -1,4 +1,4 @@
-.last-news {
+.news {
   grid-area: lastNews;
   background-color: var(--clr_grey_300);
   color: #fff;
@@ -8,7 +8,7 @@
   padding-block: 30px;
   padding-inline: 20px;
 
-  .last-news__title {
+  .news__title {
     font-size: 33px;
     font-weight: 700;
     color: var(--clr_orange);

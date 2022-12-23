@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
   <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Frontend Mentor | News homepage || AO Pure CSS/SCSS</title>
+  <title>Frontend Mentor | News homepage || AO SCSS && JS</title>
 </head>
 
 <body>
@@ -75,25 +75,26 @@
 
   <main id="main">
 
-    <div class="promote-article">
+    <div class="showcase">
       <picture>
         <source srcset="assets/images/image-web-3-desktop.jpg" media="(min-width: 650px)">
-        <img src="assets/images/image-web-3-mobile.jpg" alt="news image" loading="lazy" decoding="async">
+        <img src="assets/images/image-web-3-mobile.jpg" alt="showcase image" loading="lazy" decoding="async">
       </picture>
-      <div class="promote-article__content">
-        <h1 class="pormote-article__title">The Bright Future of Web 3.0?</h1>
-        <p class="promote-article_description">
+      <div class="showcase__content">
+        <h1 class="showcase__title">The Bright Future of Web 3.0?</h1>
+        <p class="showcase_description">
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it
           really fulfilling its promise?
         </p>
-        <button class="btn btn-primary promote-article__link">Read more</button>
+        <button class="btn btn-primary showcase__link">Read more</button>
       </div>
     </div>
-    <!-- .promoto-article -->
+    <!-- .showcase-->
 
-    <div class="last-news">
-      <h2 class="last-news__title">New</h2>
+    <div class="news">
+
+      <h2 class="news__title">New</h2>
 
       <div class="item">
         <h3 class="item__title">New Hydrogen VS Electric Cars</h3>
@@ -120,10 +121,12 @@
         </p>
       </div>
       <!-- .item -->
-    </div>
-    <!-- .last-news -->
 
-    <div class="top-articles">
+    </div>
+    <!-- .news -->
+
+    <div class="topics">
+
       <div class="item">
         <img src="assets/images/image-retro-pcs.jpg" alt="image" class="item__img" width="100" height="130" />
         <div class="item__content">
@@ -159,8 +162,10 @@
         </div>
       </div>
       <!-- .item -->
+
     </div>
-    <!-- .top-articles -->
+    <!-- .topics-->
+
   </main>
   <!-- #main -->
 

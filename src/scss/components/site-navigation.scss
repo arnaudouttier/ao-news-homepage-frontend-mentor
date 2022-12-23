@@ -39,8 +39,10 @@
   .nav-list {
     display: flex;
     flex-direction: column;
-    row-gap: 34px;
+    row-gap: 38px;
     column-gap: 40px;
+    font-size: 22px;
+    color: var(--clr_grey_200);
   }
 
   .list-item {
@@ -62,6 +64,7 @@
 
     .nav-list {
       flex-direction: row;
+      font-size: 1rem;
     }
   }
 }

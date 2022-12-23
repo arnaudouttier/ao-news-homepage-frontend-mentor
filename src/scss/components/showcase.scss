@@ -1,16 +1,16 @@
-.promote-article {
+.showcase {
   grid-area: promote;
   display: flex;
   flex-direction: column;
   row-gap: 30px;
 
-  .promote-article__content {
+  .showcase__content {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
   }
 
-  h1.pormote-article__title {
+  h1.showcase__title {
     /* 50px @ 375px increasing to 63px @ 1200px */
     font-size: clamp(50px, calc(3.125rem + ((1vw - 3.75px) * 1.5758)), 63px);
     /* Safari resize fix */
@@ -20,8 +20,8 @@
 }
 
 @media (min-width: 1024px) {
-  .promote-article {
-    .promote-article__content {
+  .showcase {
+    .showcase__content {
       display: grid;
       grid-template-columns: 1fr 1fr;
 
