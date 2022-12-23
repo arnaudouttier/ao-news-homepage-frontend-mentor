@@ -7,13 +7,15 @@ body {
 body {
   position: relative;
   font-family: var(--font_primary);
+  padding-block: 30px 80px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1300px) {
   body {
     height: 100vh;
     display: grid;
     place-content: center;
+    padding-block: 0;
   }
 }
 

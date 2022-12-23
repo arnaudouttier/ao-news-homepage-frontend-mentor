@@ -4,14 +4,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 30px;
+  /* 30px @ 375px increasing to 56px @ 1024px */
+  margin-bottom: clamp(30px, calc(1.875rem + ((1vw - 3.75px) * 4.0062)), 56px);
+  /* Safari resize fix */
+  min-height: 0vw;
 }
 
 @media (min-width: 1024px) {
-  #site-header {
-    padding-block: 0 56px;
-  }
-
   button.nav-toggle {
     display: none;
   }
