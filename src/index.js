@@ -24,7 +24,3 @@ document.addEventListener('click', event => {
     sideBarOpen = sideBarOpen ? false : true
 
 })
-
-
-
-

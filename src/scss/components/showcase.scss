@@ -24,6 +24,7 @@
     .showcase__content {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      column-gap: 60px;
 
       h1 {
         grid-column: 1/2;
@@ -32,6 +33,7 @@
 
       button {
         grid-column-start: 2;
+        align-self: flex-end;
       }
     }
   }
